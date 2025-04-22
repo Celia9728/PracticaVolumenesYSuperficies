@@ -33,7 +33,7 @@ public class Cilindro {
 	 * @return double
 	 */
 	public double superficie() {
-		double resultado = (2 * this.radio * this.radio) + (2 * 3.1316 * this.radio * this.altura);
+		double resultado = (2 * 3.14 * this.radio * this.radio) + (2 * 3.14 * this.radio * this.altura);
 		return resultado;
 	}
 
@@ -43,7 +43,7 @@ public class Cilindro {
 	 * @return dobule
 	 */
 	public double volumen() {
-		double area = 3.1416 * this.radio * this.radio;
+		double area = 3.14 * this.radio * this.radio;
 		double volumen = area * this.altura;
 		return volumen;
 	}
